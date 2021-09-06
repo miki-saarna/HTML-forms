@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Front-end foundations: HTML forms</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <main>
+      <form>
+        <fieldset class='field'>
+          <legend>Application Form</legend>
+        <div>
+          <label for='name'>First name:</label>
+        </div>
+        <div class='container'>
+          <input id='id' type='text' name='name' placeholder=' First name only' autofocus=on>
+        </div>
+        <br>
+        <div>
+          <label for='email'>Email Address:</label>
+        </div>
+        <div>
+          <input class='container' id='email' type='text' name='email' placeholder=' required' required>
+        </div>
+        <br>
+        <div>
+          <label for='form'>Suggestions:</label>
+        </div>
+        <div>
+          <textarea class='container-message' id='form' name='form-message' placeholder=' your suggestions here'></textarea>
+        </div>
+        <br>
+      <div>
+      <div class='submit'>
+        <button type='submit'>Submit Form</button>
+      </div>
+      <div class='reset'>
+        <button type='reset'>Reset Form</button>
+      </div>
+      </div>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>

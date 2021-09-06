@@ -1,0 +1,27 @@
+body {
+  padding: 10px;
+}
+
+input {
+  margin: 5px;
+}
+
+.field {
+  padding: 40px;
+}
+
+.container {
+  width: 15em;
+}
+
+.container-message {
+  width: 40%;
+  height: 5em;
+}
+
+button {
+  background-color: lightgreen;
+  margin-bottom: 5px;
+}
+
+
